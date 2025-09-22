@@ -1,34 +1,34 @@
-# 🇹🇱 API Wilayah Timor-Leste
+# 🇹🇱 Timor-Leste Regional API
 
-API statis yang menyediakan data wilayah Timor-Leste meliputi kabupaten/kota, kecamatan, dan desa/kelurahan.
+A static API that provides regional data for Timor-Leste, including districts/cities, sub-districts, and villages/wards.
 
-## 📋 Daftar Isi
+## 📋 Table of Contents
 
-- [Fitur](#-fitur)
-- [Instalasi](#-instalasi)
-- [Cara Menjalankan](#-cara-menjalankan)
+- [Features](#-features)
+- [Installation](#-installation)
+- [How to Run](#-how-to-run)
 - [API Endpoints](#-api-endpoints)
-- [Contoh Penggunaan](#-contoh-penggunaan)
-- [Struktur Data](#-struktur-data)
-- [Kontribusi](#-kontribusi)
-- [Lisensi](#-lisensi)
+- [Usage Examples](#-usage-examples)
+- [Data Structures](#-data-structures)
+- [Contributions](#-contributions)
+- [License](#-license)
 
-## ✨ Fitur
+## ✨ Features
 
-- ✅ Data kabupaten/kota lengkap Timor-Leste
-- ✅ Data kecamatan dari semua wilayah
-- ✅ Data desa/kelurahan dengan informasi populasi
-- ✅ Pencarian data wilayah
-- ✅ Interface web untuk testing API
-- ✅ CORS enabled untuk cross-origin requests
-- ✅ Response dalam format JSON
+- ✅ Complete district/city data for Timor-Leste
+- ✅ Sub-district data from all regions
+- ✅ Village/sub-district data with population information
+- ✅ Regional data search
+- ✅ Web interface for API testing
+- ✅ CORS enabled for cross-origin requests
+- ✅ Responses in JSON format
 
-## 🚀 Instalasi
+## 🚀 Installation
 
-### Prasyarat
+### Prerequisites
 
-- Python 3.6+ atau Node.js 14+
-- Web browser modern
+- Python 3.6+ or Node.js 14+
+- Modern web browser
 
 ### Clone Repository
 
@@ -37,26 +37,26 @@ git clone https://github.com/GlaimataCode/API-Wilayah-Timor-Leste.git
 cd timor-leste-region-api
 ```
 
-### Struktur File
+### File Structure
 
 ```
 timor-leste-region-api/
-├── index.html          # Halaman utama & dokumentasi API
-├── styles.css          # Styling untuk interface web
-├── api.js             # JavaScript API client
-├── app.js             # JavaScript aplikasi frontend
-├── server.py          # Python HTTP server
-├── package.json       # Node.js configuration
-├── data/              # Folder data JSON
-│   ├── districts.json    # Data kabupaten/kota
-│   ├── subdistricts.json # Data kecamatan
-│   └── villages.json     # Data desa/kelurahan
-└── README.md          # Dokumentasi ini
+├── index.html # Homepage & API documentation
+├── styles.css # Styling for the web interface
+├── api.js # JavaScript API client
+├── app.js # JavaScript frontend application
+├── server.py # Python HTTP server
+├── package.json # Node.js configuration
+├── data/ # JSON data folder
+│ ├── districts.json # Regency/City data
+│ ├── subdistricts.json # Subdistrict data
+│ └── villages.json # Village/Kelurahan data
+└── README.md # This documentation
 ```
 
-## 🏃 Cara Menjalankan
+## 🏃 How to Run
 
-### Opsi 1: Python Server (Direkomendasikan)
+### Option 1: Python Server (Recommended)
 
 ```bash
 python server.py
@@ -187,64 +187,64 @@ def get_districts():
 
 ## 🔍 Testing API
 
-1. Buka browser dan akses: http://localhost:8000
-2. Gunakan tombol "Test Endpoint" untuk mencoba setiap endpoint
-3. Gunakan fitur pencarian untuk mencari data wilayah
-4. Lihat response di bagian bawah setiap endpoint
+1. Open a browser and access: <http://localhost:8000>
+2. Use the "Test Endpoint" button to test each endpoint.
+3. Use the search feature to find region data.
+4. View the response at the bottom of each endpoint.
 
-## 🛠️ Pengembangan
+## 🛠️ Development
 
-### Menambah Data Baru
+### Adding New Data
 
-1. Edit file JSON di folder `data/`
-2. Pastikan format JSON valid
-3. Restart server untuk melihat perubahan
+1. Edit the JSON file in the `data/` folder
+2. Ensure the JSON format is valid
+3. Restart the server to see the changes
 
-### Menambah Endpoint Baru
+### Adding a New Endpoint
 
-1. Edit file `server.py` (Python) atau buat server baru
-2. Tambahkan logic untuk endpoint baru
-3. Update dokumentasi di `index.html`
+1. Edit the `server.py` file (Python) or create a new server
+2. Add logic for the new endpoint
+3. Update the documentation in `index.html`
 
-## 🤝 Kontribusi
+## 🤝 Contributions
 
-Kontribusi sangat diterima! Silakan:
+Contributions are very welcome! Please:
 
-1. Fork repository
-2. Buat branch untuk fitur baru (`git checkout -b fitur-baru`)
-3. Commit perubahan (`git commit -am 'Tambah fitur baru'`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat Pull Request
+1. Fork the repository
+2. Create a branch for the new feature (`git checkout -b new-feature`)
+3. Commit the changes (`git commit -am 'Add new feature'`)
+4. Push to the branch (`git push origin new-feature`)
+5. Create a Pull Request
 
-## 📝 Lisensi
+## 📝 License
 
-Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-📄 Detail License:
-Jenis Lisensi: MIT License
-Copyright: API Wilayah Timor-Leste (2025)
-Lokasi File: LICENSE di root directory project
-📋 Isi License:
-File LICENSE berisi teks lengkap MIT License yang mencakup:
+📄 License Details:
+License Type: MIT License
+Copyright: Timor-Leste Regional API (2025)
+File Location: LICENSE in the project root directory
+📋 License Contents:
+The LICENSE file contains the full text of the MIT License, which includes:
 
-✅ Hak untuk menggunakan, mengkopi, memodifikasi, dan mendistribusikan
-✅ Izin untuk penggunaan komersial
-✅ Disclaimer tanggung jawab
-✅ Persyaratan untuk menyertakan copyright notice
-🔗 MIT License memungkinkan:
-Penggunaan bebas untuk tujuan pribadi maupun komersial
-Modifikasi kode tanpa batasan
-Distribusi dalam bentuk asli maupun termodifikasi
-Integrasi ke dalam project lain
-Open source dan komersial
-Dengan lisensi MIT ini, project API Wilayah Timor-Leste dapat digunakan secara luas oleh developer dan organisasi di seluruh dunia untuk pengembangan aplikasi yang membutuhkan data wilayah Timor-Leste.
+✅Rights to use, copy, modify, and distribute
+✅ Permission for commercial use
+✅ Disclaimer of liability
+✅ Requirement to include a copyright notice
+🔗 The MIT License allows:
+Free use for personal and commercial purposes
+Unrestricted code modification
+Distribution in original or modified form
+Integration into other projects
+Open source and commercial
+With this MIT license, the Timor-Leste Region API project can be widely used by developers and organizations around the world for the development of applications that require Timor-Leste region data.
 
-License file sekarang sudah tersedia dan siap digunakan! 🎉
+The license file is now available and ready to use!🎉
 
 
 ## 📞 Kontak
 
-Untuk pertanyaan atau saran, silakan buat issue di repository ini.
+For questions or suggestions, please create an issue in this repository.
 Link Repository: https://github.com/GlaimataCode/API-Wilayah-Timor-Leste
 
 ---
