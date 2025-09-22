@@ -249,4 +249,4 @@ Link Repository: https://github.com/GlaimataCode/API-Wilayah-Timor-Leste
 
 ---
 
-**Dibuat dengan ❤️ untuk Timor-Leste**
+**Halo ho ❤️ BA Timor Timor-Leste**
