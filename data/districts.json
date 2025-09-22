@@ -1,0 +1,123 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Dili",
+      "type": "Município",
+      "capital": "Dili",
+      "area_km2": 368,
+      "population": 277279,
+      "description": "Ibu kota Timor-Leste"
+    },
+    {
+      "id": 2,
+      "name": "Ainaro",
+      "type": "Município",
+      "capital": "Ainaro",
+      "area_km2": 804,
+      "population": 63313,
+      "description": "Município di bagian tengah Timor-Leste"
+    },
+    {
+      "id": 3,
+      "name": "Baucau",
+      "type": "Município",
+      "capital": "Baucau",
+      "area_km2": 1504,
+      "population": 123203,
+      "description": "Município terbesar kedua di Timor-Leste"
+    },
+    {
+      "id": 4,
+      "name": "Bobonaro",
+      "type": "Município",
+      "capital": "Maliana",
+      "area_km2": 1378,
+      "population": 92897,
+      "description": "Município di bagian barat"
+    },
+    {
+      "id": 5,
+      "name": "Covalima",
+      "type": "Município",
+      "capital": "Suai",
+      "area_km2": 1203,
+      "population": 59934,
+      "description": "Município di bagian selatan"
+    },
+    {
+      "id": 6,
+      "name": "Ermera",
+      "type": "Município",
+      "capital": "Gleno",
+      "area_km2": 746,
+      "population": 117064,
+      "description": "Município penghasil kopi terkenal"
+    },
+    {
+      "id": 7,
+      "name": "Lautém",
+      "type": "Município",
+      "capital": "Lospalos",
+      "area_km2": 1812,
+      "population": 64897,
+      "description": "Município di bagian timur"
+    },
+    {
+      "id": 8,
+      "name": "Liquiçá",
+      "type": "Município",
+      "capital": "Liquiçá",
+      "area_km2": 543,
+      "population": 63403,
+      "description": "Município di bagian utara"
+    },
+    {
+      "id": 9,
+      "name": "Manatuto",
+      "type": "Município",
+      "capital": "Manatuto",
+      "area_km2": 1706,
+      "population": 43246,
+      "description": "Município di bagian timur laut"
+    },
+    {
+      "id": 10,
+      "name": "Manufahi",
+      "type": "Município",
+      "capital": "Same",
+      "area_km2": 1325,
+      "population": 48832,
+      "description": "Município di bagian selatan tengah"
+    },
+    {
+      "id": 11,
+      "name": "Oecusse",
+      "type": "Região Administrativa Especial",
+      "capital": "Pante Macassar",
+      "area_km2": 815,
+      "population": 67920,
+      "description": "Enklave Timor-Leste di Timor Barat"
+    },
+    {
+      "id": 12,
+      "name": "Viqueque",
+      "type": "Município",
+      "capital": "Viqueque",
+      "area_km2": 1878,
+      "population": 77012,
+      "description": "Município di bagian tenggara"
+    },
+    {
+      "id": 13,
+      "name": "Aileu",
+      "type": "Município",
+      "capital": "Aileu",
+      "area_km2": 729,
+      "population": 48471,
+      "description": "Município di bagian tengah utara"
+    }
+  ],
+  "message": "Data kabupaten/kota berhasil diambil"
+}

@@ -1,0 +1,456 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Bairro Pite",
+      "subdistrict_id": 1,
+      "subdistrict_name": "Cristo Rei",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 2500
+    },
+    {
+      "id": 2,
+      "name": "Becora",
+      "subdistrict_id": 1,
+      "subdistrict_name": "Cristo Rei",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 3200
+    },
+    {
+      "id": 3,
+      "name": "Camea",
+      "subdistrict_id": 1,
+      "subdistrict_name": "Cristo Rei",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 1800
+    },
+    {
+      "id": 4,
+      "name": "Comoro",
+      "subdistrict_id": 2,
+      "subdistrict_name": "Dom Aleixo",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 4500
+    },
+    {
+      "id": 5,
+      "name": "Fatuhada",
+      "subdistrict_id": 2,
+      "subdistrict_name": "Dom Aleixo",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 3800
+    },
+    {
+      "id": 6,
+      "name": "Bidau Lecidere",
+      "subdistrict_id": 3,
+      "subdistrict_name": "Vera Cruz",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 5200
+    },
+    {
+      "id": 7,
+      "name": "Caicoli",
+      "subdistrict_id": 3,
+      "subdistrict_name": "Vera Cruz",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 4100
+    },
+    {
+      "id": 8,
+      "name": "Motael",
+      "subdistrict_id": 3,
+      "subdistrict_name": "Vera Cruz",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Suco",
+      "population": 3600
+    },
+    {
+      "id": 9,
+      "name": "Suco Ainaro",
+      "subdistrict_id": 4,
+      "subdistrict_name": "Ainaro",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Suco",
+      "population": 1200
+    },
+    {
+      "id": 10,
+      "name": "Suco Hato-Udo",
+      "subdistrict_id": 5,
+      "subdistrict_name": "Hato-Udo",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Suco",
+      "population": 950
+    },
+    {
+      "id": 11,
+      "name": "Suco Maubisse",
+      "subdistrict_id": 6,
+      "subdistrict_name": "Maubisse",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Suco",
+      "population": 1100
+    },
+    {
+      "id": 12,
+      "name": "Suco Baucau",
+      "subdistrict_id": 7,
+      "subdistrict_name": "Baucau",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Suco",
+      "population": 2100
+    },
+    {
+      "id": 13,
+      "name": "Suco Laga",
+      "subdistrict_id": 8,
+      "subdistrict_name": "Laga",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Suco",
+      "population": 1650
+    },
+    {
+      "id": 14,
+      "name": "Suco Quelicai",
+      "subdistrict_id": 9,
+      "subdistrict_name": "Quelicai",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Suco",
+      "population": 1400
+    },
+    {
+      "id": 15,
+      "name": "Suco Vemasse",
+      "subdistrict_id": 10,
+      "subdistrict_name": "Vemasse",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Suco",
+      "population": 1300
+    },
+    {
+      "id": 16,
+      "name": "Suco Venilale",
+      "subdistrict_id": 11,
+      "subdistrict_name": "Venilale",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Suco",
+      "population": 1550
+    },
+    {
+      "id": 17,
+      "name": "Suco Bobonaro",
+      "subdistrict_id": 12,
+      "subdistrict_name": "Bobonaro",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Suco",
+      "population": 980
+    },
+    {
+      "id": 18,
+      "name": "Suco Cailaco",
+      "subdistrict_id": 13,
+      "subdistrict_name": "Cailaco",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Suco",
+      "population": 1250
+    },
+    {
+      "id": 19,
+      "name": "Suco Lolotoe",
+      "subdistrict_id": 14,
+      "subdistrict_name": "Lolotoe",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Suco",
+      "population": 1100
+    },
+    {
+      "id": 20,
+      "name": "Suco Maliana",
+      "subdistrict_id": 15,
+      "subdistrict_name": "Maliana",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Suco",
+      "population": 2200
+    },
+    {
+      "id": 21,
+      "name": "Suco Suai",
+      "subdistrict_id": 16,
+      "subdistrict_name": "Suai",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Suco",
+      "population": 1950
+    },
+    {
+      "id": 22,
+      "name": "Suco Tilomar",
+      "subdistrict_id": 17,
+      "subdistrict_name": "Tilomar",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Suco",
+      "population": 1450
+    },
+    {
+      "id": 23,
+      "name": "Suco Fatumean",
+      "subdistrict_id": 18,
+      "subdistrict_name": "Fatumean",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Suco",
+      "population": 1200
+    },
+    {
+      "id": 24,
+      "name": "Suco Fohorem",
+      "subdistrict_id": 19,
+      "subdistrict_name": "Fohorem",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Suco",
+      "population": 1350
+    },
+    {
+      "id": 25,
+      "name": "Suco Ermera",
+      "subdistrict_id": 20,
+      "subdistrict_name": "Ermera",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Suco",
+      "population": 1800
+    },
+    {
+      "id": 26,
+      "name": "Suco Hatolia",
+      "subdistrict_id": 21,
+      "subdistrict_name": "Hatolia",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Suco",
+      "population": 1650
+    },
+    {
+      "id": 27,
+      "name": "Suco Letefoho",
+      "subdistrict_id": 22,
+      "subdistrict_name": "Letefoho",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Suco",
+      "population": 1900
+    },
+    {
+      "id": 28,
+      "name": "Suco Railaco",
+      "subdistrict_id": 23,
+      "subdistrict_name": "Railaco",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Suco",
+      "population": 1750
+    },
+    {
+      "id": 29,
+      "name": "Suco Lautém",
+      "subdistrict_id": 24,
+      "subdistrict_name": "Lautém",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Suco",
+      "population": 850
+    },
+    {
+      "id": 30,
+      "name": "Suco Lospalos",
+      "subdistrict_id": 25,
+      "subdistrict_name": "Lospalos",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Suco",
+      "population": 2100
+    },
+    {
+      "id": 31,
+      "name": "Suco Iliomar",
+      "subdistrict_id": 26,
+      "subdistrict_name": "Iliomar",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Suco",
+      "population": 1200
+    },
+    {
+      "id": 32,
+      "name": "Suco Liquiçá",
+      "subdistrict_id": 27,
+      "subdistrict_name": "Liquiçá",
+      "district_id": 8,
+      "district_name": "Liquiçá",
+      "type": "Suco",
+      "population": 2800
+    },
+    {
+      "id": 33,
+      "name": "Suco Bazartete",
+      "subdistrict_id": 28,
+      "subdistrict_name": "Bazartete",
+      "district_id": 8,
+      "district_name": "Liquiçá",
+      "type": "Suco",
+      "population": 1950
+    },
+    {
+      "id": 34,
+      "name": "Suco Manatuto",
+      "subdistrict_id": 29,
+      "subdistrict_name": "Manatuto",
+      "district_id": 9,
+      "district_name": "Manatuto",
+      "type": "Suco",
+      "population": 1650
+    },
+    {
+      "id": 35,
+      "name": "Suco Laclubar",
+      "subdistrict_id": 30,
+      "subdistrict_name": "Laclubar",
+      "district_id": 9,
+      "district_name": "Manatuto",
+      "type": "Suco",
+      "population": 1400
+    },
+    {
+      "id": 36,
+      "name": "Suco Same",
+      "subdistrict_id": 31,
+      "subdistrict_name": "Same",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Suco",
+      "population": 2200
+    },
+    {
+      "id": 37,
+      "name": "Suco Fatuberlio",
+      "subdistrict_id": 32,
+      "subdistrict_name": "Fatuberlio",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Suco",
+      "population": 1850
+    },
+    {
+      "id": 38,
+      "name": "Suco Turiscai",
+      "subdistrict_id": 33,
+      "subdistrict_name": "Turiscai",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Suco",
+      "population": 1700
+    },
+    {
+      "id": 39,
+      "name": "Suco Pante Macassar",
+      "subdistrict_id": 34,
+      "subdistrict_name": "Pante Macassar",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Suco",
+      "population": 3200
+    },
+    {
+      "id": 40,
+      "name": "Suco Nitibe",
+      "subdistrict_id": 35,
+      "subdistrict_name": "Nitibe",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Suco",
+      "population": 2100
+    },
+    {
+      "id": 41,
+      "name": "Suco Oesilo",
+      "subdistrict_id": 36,
+      "subdistrict_name": "Oesilo",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Suco",
+      "population": 1950
+    },
+    {
+      "id": 42,
+      "name": "Suco Viqueque",
+      "subdistrict_id": 37,
+      "subdistrict_name": "Viqueque",
+      "district_id": 12,
+      "district_name": "Viqueque",
+      "type": "Suco",
+      "population": 2400
+    },
+    {
+      "id": 43,
+      "name": "Suco Lacluta",
+      "subdistrict_id": 38,
+      "subdistrict_name": "Lacluta",
+      "district_id": 12,
+      "district_name": "Viqueque",
+      "type": "Suco",
+      "population": 1800
+    },
+    {
+      "id": 44,
+      "name": "Suco Aileu",
+      "subdistrict_id": 39,
+      "subdistrict_name": "Aileu",
+      "district_id": 13,
+      "district_name": "Aileu",
+      "type": "Suco",
+      "population": 1650
+    },
+    {
+      "id": 45,
+      "name": "Suco Remexio",
+      "subdistrict_id": 40,
+      "subdistrict_name": "Remexio",
+      "district_id": 13,
+      "district_name": "Aileu",
+      "type": "Suco",
+      "population": 1900
+    }
+  ],
+  "message": "Data desa/kelurahan berhasil diambil"
+}

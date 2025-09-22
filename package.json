@@ -1,0 +1,23 @@
+{
+  "name": "timor-leste-region-api",
+  "version": "1.0.0",
+  "description": "API statis untuk data wilayah Timor-Leste",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "python server.py"
+  },
+  "keywords": [
+    "timor-leste",
+    "api",
+    "regions",
+    "indonesia",
+    "static-api"
+  ],
+  "author": "API Wilayah Timor-Leste",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

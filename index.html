@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Wilayah Timor-Leste</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🇹🇱 API Wilayah Timor-Leste</h1>
+            <p>Antarmuka Pemrograman Aplikasi untuk data wilayah Timor-Leste</p>
+        </header>
+
+        <main>
+            <section class="api-info">
+                <h2>Informasi API</h2>
+                <div class="info-card">
+                    <h3>Base URL</h3>
+                    <code class="url">/api/</code>
+                </div>
+
+                <div class="info-card">
+                    <h3>Format Response</h3>
+                    <pre><code>{
+  "status": "success",
+  "data": [...],
+  "message": "Data berhasil diambil"
+}</code></pre>
+                </div>
+            </section>
+
+            <section class="endpoints">
+                <h2>Endpoints Tersedia</h2>
+
+                <div class="endpoint">
+                    <h3>GET /api/districts</h3>
+                    <p>Mendapatkan daftar semua kabupaten/kota di Timor-Leste</p>
+                    <button onclick="testEndpoint('districts')">Test Endpoint</button>
+                    <div class="response" id="districts-response"></div>
+                </div>
+
+                <div class="endpoint">
+                    <h3>GET /api/districts/{id}</h3>
+                    <p>Mendapatkan detail kabupaten/kota berdasarkan ID</p>
+                    <button onclick="testEndpoint('districts/1')">Test Endpoint</button>
+                    <div class="response" id="districts-1-response"></div>
+                </div>
+
+                <div class="endpoint">
+                    <h3>GET /api/subdistricts</h3>
+                    <p>Mendapatkan daftar semua kecamatan di Timor-Leste</p>
+                    <button onclick="testEndpoint('subdistricts')">Test Endpoint</button>
+                    <div class="response" id="subdistricts-response"></div>
+                </div>
+
+                <div class="endpoint">
+                    <h3>GET /api/villages</h3>
+                    <p>Mendapatkan daftar semua desa/kelurahan di Timor-Leste</p>
+                    <button onclick="testEndpoint('villages')">Test Endpoint</button>
+                    <div class="response" id="villages-response"></div>
+                </div>
+
+                <div class="endpoint">
+                    <h3>GET /api/search?q={query}</h3>
+                    <p>Mencari data wilayah berdasarkan nama</p>
+                    <input type="text" id="search-input" placeholder="Cari wilayah...">
+                    <button onclick="searchEndpoint()">Cari</button>
+                    <div class="response" id="search-response"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 API Wilayah Timor-Leste | Dibuat untuk keperluan data wilayah</p>
+        </footer>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,326 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Cristo Rei",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Administrativo",
+      "capital": "Cristo Rei"
+    },
+    {
+      "id": 2,
+      "name": "Dom Aleixo",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Administrativo",
+      "capital": "Dom Aleixo"
+    },
+    {
+      "id": 3,
+      "name": "Vera Cruz",
+      "district_id": 1,
+      "district_name": "Dili",
+      "type": "Administrativo",
+      "capital": "Vera Cruz"
+    },
+    {
+      "id": 4,
+      "name": "Ainaro",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Posto Administrativo",
+      "capital": "Ainaro"
+    },
+    {
+      "id": 5,
+      "name": "Hato-Udo",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Posto Administrativo",
+      "capital": "Hato-Udo"
+    },
+    {
+      "id": 6,
+      "name": "Maubisse",
+      "district_id": 2,
+      "district_name": "Ainaro",
+      "type": "Posto Administrativo",
+      "capital": "Maubisse"
+    },
+    {
+      "id": 7,
+      "name": "Baucau",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Posto Administrativo",
+      "capital": "Baucau"
+    },
+    {
+      "id": 8,
+      "name": "Laga",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Posto Administrativo",
+      "capital": "Laga"
+    },
+    {
+      "id": 9,
+      "name": "Quelicai",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Posto Administrativo",
+      "capital": "Quelicai"
+    },
+    {
+      "id": 10,
+      "name": "Vemasse",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Posto Administrativo",
+      "capital": "Vemasse"
+    },
+    {
+      "id": 11,
+      "name": "Venilale",
+      "district_id": 3,
+      "district_name": "Baucau",
+      "type": "Posto Administrativo",
+      "capital": "Venilale"
+    },
+    {
+      "id": 12,
+      "name": "Bobonaro",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Posto Administrativo",
+      "capital": "Bobonaro"
+    },
+    {
+      "id": 13,
+      "name": "Cailaco",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Posto Administrativo",
+      "capital": "Cailaco"
+    },
+    {
+      "id": 14,
+      "name": "Lolotoe",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Posto Administrativo",
+      "capital": "Lolotoe"
+    },
+    {
+      "id": 15,
+      "name": "Maliana",
+      "district_id": 4,
+      "district_name": "Bobonaro",
+      "type": "Posto Administrativo",
+      "capital": "Maliana"
+    },
+    {
+      "id": 16,
+      "name": "Suai",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Posto Administrativo",
+      "capital": "Suai"
+    },
+    {
+      "id": 17,
+      "name": "Tilomar",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Posto Administrativo",
+      "capital": "Tilomar"
+    },
+    {
+      "id": 18,
+      "name": "Fatumean",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Posto Administrativo",
+      "capital": "Fatumean"
+    },
+    {
+      "id": 19,
+      "name": "Fohorem",
+      "district_id": 5,
+      "district_name": "Covalima",
+      "type": "Posto Administrativo",
+      "capital": "Fohorem"
+    },
+    {
+      "id": 20,
+      "name": "Ermera",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Posto Administrativo",
+      "capital": "Ermera"
+    },
+    {
+      "id": 21,
+      "name": "Hatolia",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Posto Administrativo",
+      "capital": "Hatolia"
+    },
+    {
+      "id": 22,
+      "name": "Letefoho",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Posto Administrativo",
+      "capital": "Letefoho"
+    },
+    {
+      "id": 23,
+      "name": "Railaco",
+      "district_id": 6,
+      "district_name": "Ermera",
+      "type": "Posto Administrativo",
+      "capital": "Railaco"
+    },
+    {
+      "id": 24,
+      "name": "Lautém",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Posto Administrativo",
+      "capital": "Lautém"
+    },
+    {
+      "id": 25,
+      "name": "Lospalos",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Posto Administrativo",
+      "capital": "Lospalos"
+    },
+    {
+      "id": 26,
+      "name": "Iliomar",
+      "district_id": 7,
+      "district_name": "Lautém",
+      "type": "Posto Administrativo",
+      "capital": "Iliomar"
+    },
+    {
+      "id": 27,
+      "name": "Liquiçá",
+      "district_id": 8,
+      "district_name": "Liquiçá",
+      "type": "Posto Administrativo",
+      "capital": "Liquiçá"
+    },
+    {
+      "id": 28,
+      "name": "Bazartete",
+      "district_id": 8,
+      "district_name": "Liquiçá",
+      "type": "Posto Administrativo",
+      "capital": "Bazartete"
+    },
+    {
+      "id": 29,
+      "name": "Manatuto",
+      "district_id": 9,
+      "district_name": "Manatuto",
+      "type": "Posto Administrativo",
+      "capital": "Manatuto"
+    },
+    {
+      "id": 30,
+      "name": "Laclubar",
+      "district_id": 9,
+      "district_name": "Manatuto",
+      "type": "Posto Administrativo",
+      "capital": "Laclubar"
+    },
+    {
+      "id": 31,
+      "name": "Same",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Posto Administrativo",
+      "capital": "Same"
+    },
+    {
+      "id": 32,
+      "name": "Fatuberlio",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Posto Administrativo",
+      "capital": "Fatuberlio"
+    },
+    {
+      "id": 33,
+      "name": "Turiscai",
+      "district_id": 10,
+      "district_name": "Manufahi",
+      "type": "Posto Administrativo",
+      "capital": "Turiscai"
+    },
+    {
+      "id": 34,
+      "name": "Pante Macassar",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Posto Administrativo",
+      "capital": "Pante Macassar"
+    },
+    {
+      "id": 35,
+      "name": "Nitibe",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Posto Administrativo",
+      "capital": "Nitibe"
+    },
+    {
+      "id": 36,
+      "name": "Oesilo",
+      "district_id": 11,
+      "district_name": "Oecusse",
+      "type": "Posto Administrativo",
+      "capital": "Oesilo"
+    },
+    {
+      "id": 37,
+      "name": "Viqueque",
+      "district_id": 12,
+      "district_name": "Viqueque",
+      "type": "Posto Administrativo",
+      "capital": "Viqueque"
+    },
+    {
+      "id": 38,
+      "name": "Lacluta",
+      "district_id": 12,
+      "district_name": "Viqueque",
+      "type": "Posto Administrativo",
+      "capital": "Lacluta"
+    },
+    {
+      "id": 39,
+      "name": "Aileu",
+      "district_id": 13,
+      "district_name": "Aileu",
+      "type": "Posto Administrativo",
+      "capital": "Aileu"
+    },
+    {
+      "id": 40,
+      "name": "Remexio",
+      "district_id": 13,
+      "district_name": "Aileu",
+      "type": "Posto Administrativo",
+      "capital": "Remexio"
+    }
+  ],
+  "message": "Data kecamatan berhasil diambil"
+}
