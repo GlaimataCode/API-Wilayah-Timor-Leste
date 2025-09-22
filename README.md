@@ -33,7 +33,7 @@ API statis yang menyediakan data wilayah Timor-Leste meliputi kabupaten/kota, ke
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/GlaimataCode/API-Wilayah-Timor-Leste.git
 cd timor-leste-region-api
 ```
 
@@ -245,6 +245,7 @@ License file sekarang sudah tersedia dan siap digunakan! 🎉
 ## 📞 Kontak
 
 Untuk pertanyaan atau saran, silakan buat issue di repository ini.
+Link Repository: https://github.com/GlaimataCode/API-Wilayah-Timor-Leste
 
 ---
 
