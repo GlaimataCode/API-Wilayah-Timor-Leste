@@ -242,7 +242,7 @@ With this MIT license, the Timor-Leste Region API project can be widely used by 
 The license file is now available and ready to use!🎉
 
 
-## 📞 Kontak
+## 📞 Kontak : 
 
 For questions or suggestions, please create an issue in this repository.
 Link Repository: https://github.com/GlaimataCode/API-Wilayah-Timor-Leste
