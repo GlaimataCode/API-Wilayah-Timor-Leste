@@ -62,16 +62,16 @@ timor-leste-region-api/
 python server.py
 ```
 
-Server akan berjalan di: http://localhost:8000
+Server will run at: http://localhost:8000
 
-### Opsi 2: Node.js Server
+### Option 2: Node.js Server
 
 ```bash
 npm install
 npm start
 ```
 
-### Opsi 3: Simple HTTP Server
+### Option 3: Simple HTTP Server
 
 ```bash
 # Python 3
@@ -91,30 +91,30 @@ npx http-server -p 8000
 http://localhost:8000/api/
 ```
 
-### Endpoints Tersedia
+### Available Endpoints
 
 | Method | Endpoint | Deskripsi |
 |--------|----------|-----------|
-| GET | `/api/districts` | Mendapatkan semua kabupaten/kota |
-| GET | `/api/districts/{id}` | Mendapatkan detail kabupaten berdasarkan ID |
-| GET | `/api/subdistricts` | Mendapatkan semua kecamatan |
-| GET | `/api/villages` | Mendapatkan semua desa/kelurahan |
-| GET | `/api/search?q={query}` | Mencari data wilayah |
+| GET | `/api/districts` | Get all regencies/cities |
+| GET | `/api/districts/{id}` | Get district details by ID |
+| GET | `/api/subdistricts` | Get all subdistricts |
+| GET | `/api/villages` | Get all villages/wards |
+| GET | `/api/search?q={query}` | Search regional data |
 
-### Contoh Request
+### Request Examples
 
 ```bash
-# Mendapatkan semua districts
+# Get all districts
 curl http://localhost:8000/api/districts
 
-# Mendapatkan district berdasarkan ID
+# Get district by ID
 curl http://localhost:8000/api/districts/1
 
-# Pencarian
+# Search
 curl "http://localhost:8000/api/search?q=dili"
 ```
 
-## 💡 Contoh Penggunaan
+## 💡 Usage Examples
 
 ### JavaScript (Browser)
 ```javascript
@@ -144,7 +144,7 @@ def get_districts():
     return response.json()
 ```
 
-## 📊 Struktur Data
+## 📊 Data Structure
 
 ### District/Kabupaten
 ```json
@@ -242,11 +242,11 @@ With this MIT license, the Timor-Leste Region API project can be widely used by 
 The license file is now available and ready to use!🎉
 
 
-## 📞 Kontak : 
+## 📞 Contact :
 
 For questions or suggestions, please create an issue in this repository.
 Link Repository: https://github.com/GlaimataCode/Timor-Leste-Regional-API
 
 ---
 
-**Halo ho ❤️ Ba Timor-Leste**
+**Develop With ❤️ to Timor-Leste**
