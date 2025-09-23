@@ -33,7 +33,7 @@ A static API that provides regional data for Timor-Leste, including districts/ci
 ### Clone Repository
 
 ```bash
-git clone https://github.com/GlaimataCode/API-Wilayah-Timor-Leste.git
+git clone https://github.com/GlaimataCode/Timor-Leste-Regional-API.git
 cd timor-leste-region-api
 ```
 
@@ -245,7 +245,7 @@ The license file is now available and ready to use!🎉
 ## 📞 Kontak : 
 
 For questions or suggestions, please create an issue in this repository.
-Link Repository: https://github.com/GlaimataCode/API-Wilayah-Timor-Leste
+Link Repository: https://github.com/GlaimataCode/Timor-Leste-Regional-API
 
 ---
 
