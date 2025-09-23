@@ -1,30 +1,30 @@
 @echo off
 echo ========================================
-echo    API Wilayah Timor-Leste
+echo    Timor-Leste Regional API
 echo ========================================
 echo.
-echo Pilih cara menjalankan server:
+echo Choose how to run the server:
 echo.
-echo 1. Python Server (Direkomendasikan)
+echo 1. Python Server (Recommended)
 echo 2. Node.js Server
-echo 3. Buka di browser langsung
+echo 3. Open in browser directly
 echo.
-set /p choice="Pilih opsi (1-3): "
+set /p choice="Select option (1-3): "
 
 if "%choice%"=="1" (
     echo.
-    echo 🚀 Menjalankan Python server...
+    echo 🚀 Starting Python server...
     python server.py
 ) else if "%choice%"=="2" (
     echo.
-    echo 🚀 Menjalankan Node.js server...
+    echo 🚀 Starting Node.js server...
     node server.js
 ) else if "%choice%"=="3" (
     echo.
-    echo 🌐 Membuka di browser...
+    echo 🌐 Opening in browser...
     start http://localhost:8000
 ) else (
     echo.
-    echo ❌ Opsi tidak valid!
+    echo ❌ Invalid option!
     pause
 )

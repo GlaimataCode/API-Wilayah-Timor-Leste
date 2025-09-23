@@ -1,9 +1,9 @@
-// API endpoints untuk data wilayah Timor-Leste
+// API endpoints for Timor-Leste regional data
 const API = {
-    // Base URL untuk API
+    // Base URL for API
     baseURL: window.location.origin,
 
-    // Mendapatkan semua data kabupaten/kota
+    // Get all district/municipality data
     async getDistricts() {
         try {
             const response = await fetch('./data/districts.json');
@@ -14,12 +14,12 @@ const API = {
             return {
                 status: 'error',
                 data: [],
-                message: 'Gagal mengambil data kabupaten/kota'
+                message: 'Failed to fetch district/municipality data'
             };
         }
     },
 
-    // Mendapatkan detail kabupaten/kota berdasarkan ID
+    // Get district/municipality details by ID
     async getDistrictById(id) {
         try {
             const response = await fetch('./data/districts.json');
@@ -30,13 +30,13 @@ const API = {
                 return {
                     status: 'success',
                     data: district,
-                    message: 'Data kabupaten/kota berhasil diambil'
+                    message: 'District/municipality data retrieved successfully'
                 };
             } else {
                 return {
                     status: 'error',
                     data: null,
-                    message: 'Kabupaten/kota tidak ditemukan'
+                    message: 'District/municipality not found'
                 };
             }
         } catch (error) {
@@ -44,12 +44,12 @@ const API = {
             return {
                 status: 'error',
                 data: null,
-                message: 'Gagal mengambil data kabupaten/kota'
+                message: 'Failed to fetch district/municipality data'
             };
         }
     },
 
-    // Mendapatkan semua data kecamatan
+    // Get all subdistrict data
     async getSubdistricts() {
         try {
             const response = await fetch('./data/subdistricts.json');
@@ -60,12 +60,12 @@ const API = {
             return {
                 status: 'error',
                 data: [],
-                message: 'Gagal mengambil data kecamatan'
+                message: 'Failed to fetch subdistrict data'
             };
         }
     },
 
-    // Mendapatkan semua data desa/kelurahan
+    // Get all village/suco data
     async getVillages() {
         try {
             const response = await fetch('./data/villages.json');
@@ -76,12 +76,12 @@ const API = {
             return {
                 status: 'error',
                 data: [],
-                message: 'Gagal mengambil data desa/kelurahan'
+                message: 'Failed to fetch village/suco data'
             };
         }
     },
 
-    // Mencari data wilayah berdasarkan query
+    // Search regional data by query
     async search(query) {
         try {
             const [districtsResponse, subdistrictsResponse, villagesResponse] = await Promise.all([
@@ -98,7 +98,7 @@ const API = {
 
             const results = [];
 
-            // Cari di districts
+            // Search in districts
             districtsData.data.forEach(district => {
                 if (district.name.toLowerCase().includes(query.toLowerCase()) ||
                     district.capital.toLowerCase().includes(query.toLowerCase())) {
@@ -109,7 +109,7 @@ const API = {
                 }
             });
 
-            // Cari di subdistricts
+            // Search in subdistricts
             subdistrictsData.data.forEach(subdistrict => {
                 if (subdistrict.name.toLowerCase().includes(query.toLowerCase())) {
                     results.push({
@@ -119,7 +119,7 @@ const API = {
                 }
             });
 
-            // Cari di villages
+            // Search in villages
             villagesData.data.forEach(village => {
                 if (village.name.toLowerCase().includes(query.toLowerCase())) {
                     results.push({
@@ -132,18 +132,18 @@ const API = {
             return {
                 status: 'success',
                 data: results,
-                message: `Ditemukan ${results.length} hasil pencarian`
+                message: `Found ${results.length} search results`
             };
         } catch (error) {
             console.error('Error searching:', error);
             return {
                 status: 'error',
                 data: [],
-                message: 'Gagal melakukan pencarian'
+                message: 'Failed to perform search'
             };
         }
     }
 };
 
-// Export API untuk digunakan di file lain
+// Export API for use in other files
 window.API = API;

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Simple HTTP server untuk API Wilayah Timor-Leste
-Untuk menjalankan: python server.py
-Akses di browser: http://localhost:8000
+Simple HTTP server for Timor-Leste Regional API
+To run: python server.py
+Access in browser: http://localhost:8000
 """
 
 import http.server
@@ -56,13 +56,13 @@ class TimorLesteAPIHandler(http.server.SimpleHTTPRequestHandler):
                     response = {
                         "status": "success",
                         "data": district,
-                        "message": "Data kabupaten/kota berhasil diambil"
+                        "message": "District/municipality data retrieved successfully"
                     }
                 else:
                     response = {
                         "status": "error",
                         "data": None,
-                        "message": "Kabupaten/kota tidak ditemukan"
+                        "message": "District/municipality not found"
                     }
                 self.wfile.write(json.dumps(response, ensure_ascii=False, indent=2).encode('utf-8'))
 
@@ -96,7 +96,7 @@ class TimorLesteAPIHandler(http.server.SimpleHTTPRequestHandler):
                 response = {
                     "status": "success",
                     "data": results,
-                    "message": f"Ditemukan {len(results)} hasil pencarian"
+                    "message": f"Found {len(results)} search results"
                 }
                 self.wfile.write(json.dumps(response, ensure_ascii=False, indent=2).encode('utf-8'))
 
@@ -104,7 +104,7 @@ class TimorLesteAPIHandler(http.server.SimpleHTTPRequestHandler):
                 response = {
                     "status": "error",
                     "data": None,
-                    "message": "Endpoint tidak ditemukan"
+                    "message": "Endpoint not found"
                 }
                 self.wfile.write(json.dumps(response, ensure_ascii=False, indent=2).encode('utf-8'))
 
@@ -112,25 +112,25 @@ class TimorLesteAPIHandler(http.server.SimpleHTTPRequestHandler):
             error_response = {
                 "status": "error",
                 "data": None,
-                "message": f"Terjadi kesalahan: {str(e)}"
+                "message": f"An error occurred: {str(e)}"
             }
             self.wfile.write(json.dumps(error_response, ensure_ascii=False, indent=2).encode('utf-8'))
 
 def main():
-    print("🚀 Memulai server API Wilayah Timor-Leste...")
-    print(f"📍 Server berjalan di: http://localhost:{PORT}")
-    print(f"📚 Dokumentasi API: http://localhost:{PORT}")
-    print("🔄 Tekan Ctrl+C untuk menghentikan server")
+    print("🚀 Starting Timor-Leste Regional API server...")
+    print(f"📍 Server running at: http://localhost:{PORT}")
+    print(f"📚 API documentation: http://localhost:{PORT}")
+    print("🔄 Press Ctrl+C to stop the server")
 
     try:
         with socketserver.TCPServer(("", PORT), TimorLesteAPIHandler) as httpd:
-            print(f"\n✅ Server berhasil dimulai di port {PORT}")
+            print(f"\n✅ Server successfully started on port {PORT}")
             httpd.serve_forever()
     except KeyboardInterrupt:
-        print("\n\n🛑 Server dihentikan oleh pengguna")
+        print("\n\n🛑 Server stopped by user")
     except OSError as e:
         if e.errno == 48:  # Address already in use
-            print(f"❌ Port {PORT} sudah digunakan. Coba port lain.")
+            print(f"❌ Port {PORT} is already in use. Try a different port.")
         else:
             print(f"❌ Error: {e}")
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
- * Simple HTTP server untuk API Wilayah Timor-Leste (Node.js)
- * Untuk menjalankan: node server.js atau npm start
- * Akses di browser: http://localhost:8000
+ * Simple HTTP server for Timor-Leste Regional API (Node.js)
+ * To run: node server.js or npm start
+ * Access in browser: http://localhost:8000
  */
 
 const http = require('http');
@@ -75,7 +75,7 @@ function handleAPIRequest(pathname, query, res) {
       res.end(JSON.stringify({
         status: 'error',
         data: null,
-        message: 'Endpoint tidak ditemukan'
+        message: 'Endpoint not found'
       }, null, 2));
     }
   } catch (error) {
@@ -83,7 +83,7 @@ function handleAPIRequest(pathname, query, res) {
     res.end(JSON.stringify({
       status: 'error',
       data: null,
-      message: `Terjadi kesalahan: ${error.message}`
+      message: `An error occurred: ${error.message}`
     }, null, 2));
   }
 }
@@ -97,7 +97,7 @@ function serveJSONFile(filename, res) {
       res.end(JSON.stringify({
         status: 'error',
         data: null,
-        message: 'Gagal membaca file data'
+        message: 'Failed to read data file'
       }, null, 2));
     } else {
       res.writeHead(200);
@@ -115,7 +115,7 @@ function serveDistrictById(districtId, res) {
       res.end(JSON.stringify({
         status: 'error',
         data: null,
-        message: 'Gagal membaca file data'
+        message: 'Failed to read data file'
       }, null, 2));
     } else {
       const jsonData = JSON.parse(data);
@@ -126,14 +126,14 @@ function serveDistrictById(districtId, res) {
         res.end(JSON.stringify({
           status: 'success',
           data: district,
-          message: 'Data kabupaten/kota berhasil diambil'
+          message: 'District/municipality data retrieved successfully'
         }, null, 2));
       } else {
         res.writeHead(404);
         res.end(JSON.stringify({
           status: 'error',
           data: null,
-          message: 'Kabupaten/kota tidak ditemukan'
+          message: 'District/municipality not found'
         }, null, 2));
       }
     }
@@ -146,7 +146,7 @@ function handleSearch(searchQuery, res) {
     res.end(JSON.stringify({
       status: 'error',
       data: [],
-      message: 'Parameter q diperlukan untuk pencarian'
+      message: 'Parameter q is required for search'
     }, null, 2));
     return;
   }
@@ -188,7 +188,7 @@ function handleSearch(searchQuery, res) {
         res.end(JSON.stringify({
           status: 'success',
           data: results,
-          message: `Ditemukan ${results.length} hasil pencarian`
+          message: `Found ${results.length} search results`
         }, null, 2));
       }
     });
@@ -219,19 +219,19 @@ function serveStaticFile(pathname, res) {
 
 // Start server
 server.listen(PORT, () => {
-  console.log('🚀 Memulai server API Wilayah Timor-Leste (Node.js)...');
-  console.log(`📍 Server berjalan di: http://localhost:${PORT}`);
-  console.log(`📚 Dokumentasi API: http://localhost:${PORT}`);
-  console.log('🔄 Tekan Ctrl+C untuk menghentikan server');
+  console.log('🚀 Starting Timor-Leste Regional API server (Node.js)...');
+  console.log(`📍 Server running at: http://localhost:${PORT}`);
+  console.log(`📚 API documentation: http://localhost:${PORT}`);
+  console.log('🔄 Press Ctrl+C to stop the server');
   console.log('');
-  console.log('✅ Server berhasil dimulai!');
+  console.log('✅ Server successfully started!');
 });
 
 // Handle server shutdown
 process.on('SIGINT', () => {
-  console.log('\n\n🛑 Server dihentikan oleh pengguna');
+  console.log('\n\n🛑 Server stopped by user');
   server.close(() => {
-    console.log('👋 Terima kasih telah menggunakan API Wilayah Timor-Leste!');
+    console.log('👋 Thank you for using Timor-Leste Regional API!');
     process.exit(0);
   });
 });

@@ -48,9 +48,9 @@ timor-leste-region-api/
 ├── server.py # Python HTTP server
 ├── package.json # Node.js configuration
 ├── data/ # JSON data folder
-│ ├── districts.json # Regency/City data
+│ ├── districts.json # District/Municipality data
 │ ├── subdistricts.json # Subdistrict data
-│ └── villages.json # Village/Kelurahan data
+│ └── villages.json # Village/Suco data
 └── README.md # This documentation
 ```
 
@@ -93,12 +93,12 @@ http://localhost:8000/api/
 
 ### Available Endpoints
 
-| Method | Endpoint | Deskripsi |
+| Method | Endpoint | Description |
 |--------|----------|-----------|
-| GET | `/api/districts` | Get all regencies/cities |
+| GET | `/api/districts` | Get all districts/municipalities |
 | GET | `/api/districts/{id}` | Get district details by ID |
 | GET | `/api/subdistricts` | Get all subdistricts |
-| GET | `/api/villages` | Get all villages/wards |
+| GET | `/api/villages` | Get all villages/sucos |
 | GET | `/api/search?q={query}` | Search regional data |
 
 ### Request Examples
@@ -118,7 +118,7 @@ curl "http://localhost:8000/api/search?q=dili"
 
 ### JavaScript (Browser)
 ```javascript
-// Menggunakan API di browser
+// Using the API in browser
 const response = await fetch('/api/districts');
 const data = await response.json();
 console.log(data);
@@ -146,7 +146,7 @@ def get_districts():
 
 ## 📊 Data Structure
 
-### District/Kabupaten
+### District/Municipality
 ```json
 {
   "id": 1,
@@ -155,11 +155,11 @@ def get_districts():
   "capital": "Dili",
   "area_km2": 368,
   "population": 277279,
-  "description": "Ibu kota Timor-Leste"
+  "description": "Capital city of Timor-Leste"
 }
 ```
 
-### Subdistrict/Kecamatan
+### Subdistrict/Administrative Post
 ```json
 {
   "id": 1,
@@ -171,7 +171,7 @@ def get_districts():
 }
 ```
 
-### Village/Desa
+### Village/Suco
 ```json
 {
   "id": 1,

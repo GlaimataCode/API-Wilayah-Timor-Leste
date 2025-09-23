@@ -1,4 +1,4 @@
-// Fungsi untuk menampilkan response di halaman
+// Function to display response on the page
 function showResponse(elementId, data) {
     const responseElement = document.getElementById(elementId);
     const responseDiv = responseElement;
@@ -10,7 +10,7 @@ function showResponse(elementId, data) {
     responseDiv.classList.add('show');
 }
 
-// Fungsi untuk test endpoint
+// Function to test endpoint
 async function testEndpoint(endpoint) {
     try {
         let result;
@@ -40,7 +40,7 @@ async function testEndpoint(endpoint) {
                 result = {
                     status: 'error',
                     data: null,
-                    message: 'Endpoint tidak ditemukan'
+                    message: 'Endpoint not found'
                 };
                 showResponse(endpoint + '-response', result);
         }
@@ -49,19 +49,19 @@ async function testEndpoint(endpoint) {
         const result = {
             status: 'error',
             data: null,
-            message: 'Terjadi kesalahan saat mengakses API'
+            message: 'An error occurred while accessing the API'
         };
         showResponse(endpoint + '-response', result);
     }
 }
 
-// Fungsi untuk search
+// Function for search
 async function searchEndpoint() {
     const searchInput = document.getElementById('search-input');
     const query = searchInput.value.trim();
 
     if (!query) {
-        alert('Masukkan kata kunci untuk pencarian');
+        alert('Please enter a keyword for search');
         return;
     }
 
@@ -73,18 +73,18 @@ async function searchEndpoint() {
         const result = {
             status: 'error',
             data: [],
-            message: 'Terjadi kesalahan saat melakukan pencarian'
+            message: 'An error occurred while performing the search'
         };
         showResponse('search-response', result);
     }
 }
 
-// Fungsi untuk format angka
+// Function to format numbers
 function formatNumber(num) {
     return new Intl.NumberFormat('id-ID').format(num);
 }
 
-// Fungsi untuk menampilkan statistik
+// Function to display statistics
 async function showStatistics() {
     try {
         const [districtsResult, subdistrictsResult, villagesResult] = await Promise.all([
@@ -100,7 +100,7 @@ async function showStatistics() {
             totalPopulation: villagesResult.data.reduce((sum, village) => sum + (village.population || 0), 0)
         };
 
-        console.log('Statistik Wilayah Timor-Leste:', stats);
+        console.log('Timor-Leste Regional Statistics:', stats);
         return stats;
     } catch (error) {
         console.error('Error getting statistics:', error);
@@ -108,18 +108,18 @@ async function showStatistics() {
     }
 }
 
-// Event listener untuk halaman dimuat
+// Event listener for page load
 document.addEventListener('DOMContentLoaded', async function() {
-    console.log('API Wilayah Timor-Leste siap digunakan!');
+    console.log('Timor-Leste Regional API is ready to use!');
 
-    // Tampilkan statistik di console
+    // Display statistics in console
     const stats = await showStatistics();
     if (stats) {
-        console.log(`📊 Total: ${stats.districts} kabupaten/kota, ${stats.subdistricts} kecamatan, ${stats.villages} desa/kelurahan`);
-        console.log(`👥 Total populasi: ${formatNumber(stats.totalPopulation)} jiwa`);
+        console.log(`📊 Total: ${stats.districts} districts/municipalities, ${stats.subdistricts} subdistricts, ${stats.villages} villages/sucos`);
+        console.log(`👥 Total population: ${formatNumber(stats.totalPopulation)} people`);
     }
 
-    // Tambahkan event listener untuk Enter key di search input
+    // Add event listener for Enter key in search input
     const searchInput = document.getElementById('search-input');
     if (searchInput) {
         searchInput.addEventListener('keypress', function(e) {
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 });
 
-// Export fungsi untuk digunakan di console browser
+// Export functions for use in browser console
 window.testEndpoint = testEndpoint;
 window.searchEndpoint = searchEndpoint;
 window.showStatistics = showStatistics;

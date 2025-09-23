@@ -8,7 +8,7 @@
       "capital": "Dili",
       "area_km2": 368,
       "population": 277279,
-      "description": "Ibu kota Timor-Leste"
+      "description": "Capital city of Timor-Leste"
     },
     {
       "id": 2,
@@ -17,7 +17,7 @@
       "capital": "Ainaro",
       "area_km2": 804,
       "population": 63313,
-      "description": "Município di bagian tengah Timor-Leste"
+      "description": "Municipality in central Timor-Leste"
     },
     {
       "id": 3,
@@ -26,7 +26,7 @@
       "capital": "Baucau",
       "area_km2": 1504,
       "population": 123203,
-      "description": "Município terbesar kedua di Timor-Leste"
+      "description": "Second largest municipality in Timor-Leste"
     },
     {
       "id": 4,
@@ -35,7 +35,7 @@
       "capital": "Maliana",
       "area_km2": 1378,
       "population": 92897,
-      "description": "Município di bagian barat"
+      "description": "Municipality in the western part"
     },
     {
       "id": 5,
@@ -44,7 +44,7 @@
       "capital": "Suai",
       "area_km2": 1203,
       "population": 59934,
-      "description": "Município di bagian selatan"
+      "description": "Municipality in the southern part"
     },
     {
       "id": 6,
@@ -53,7 +53,7 @@
       "capital": "Gleno",
       "area_km2": 746,
       "population": 117064,
-      "description": "Município penghasil kopi terkenal"
+      "description": "Famous coffee-producing municipality"
     },
     {
       "id": 7,
@@ -62,7 +62,7 @@
       "capital": "Lospalos",
       "area_km2": 1812,
       "population": 64897,
-      "description": "Município di bagian timur"
+      "description": "Municipality in the eastern part"
     },
     {
       "id": 8,
@@ -71,7 +71,7 @@
       "capital": "Liquiçá",
       "area_km2": 543,
       "population": 63403,
-      "description": "Município di bagian utara"
+      "description": "Municipality in the northern part"
     },
     {
       "id": 9,
@@ -80,7 +80,7 @@
       "capital": "Manatuto",
       "area_km2": 1706,
       "population": 43246,
-      "description": "Município di bagian timur laut"
+      "description": "Municipality in the northeast"
     },
     {
       "id": 10,
@@ -89,7 +89,7 @@
       "capital": "Same",
       "area_km2": 1325,
       "population": 48832,
-      "description": "Município di bagian selatan tengah"
+      "description": "Municipality in the south-central part"
     },
     {
       "id": 11,
@@ -98,7 +98,7 @@
       "capital": "Pante Macassar",
       "area_km2": 815,
       "population": 67920,
-      "description": "Enklave Timor-Leste di Timor Barat"
+      "description": "Timor-Leste enclave in West Timor"
     },
     {
       "id": 12,
@@ -107,7 +107,7 @@
       "capital": "Viqueque",
       "area_km2": 1878,
       "population": 77012,
-      "description": "Município di bagian tenggara"
+      "description": "Municipality in the southeast"
     },
     {
       "id": 13,
@@ -116,8 +116,8 @@
       "capital": "Aileu",
       "area_km2": 729,
       "population": 48471,
-      "description": "Município di bagian tengah utara"
+      "description": "Municipality in the north-central part"
     }
   ],
-  "message": "Data kabupaten/kota berhasil diambil"
+  "message": "District/municipality data retrieved successfully"
 }
